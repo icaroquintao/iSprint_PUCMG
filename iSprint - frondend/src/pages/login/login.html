@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Login
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page5">
+  <form id="login-form1">
+    <ion-list id="login-list1">
+      <ion-item id="login-input1">
+        <ion-label>
+          Email
+        </ion-label>
+        <ion-input type="email" placeholder=""></ion-input>
+      </ion-item>
+      <ion-item id="login-input2">
+        <ion-label>
+          Senha
+        </ion-label>
+        <ion-input type="password" placeholder=""></ion-input>
+      </ion-item>
+    </ion-list>
+    <div class="spacer" style="width:300px;height:72px;" id="login-spacer1"></div>
+    <button id="login-button1" ion-button color="positive" block on-click="goToAdministrador()">
+      Entrar
+    </button>
+    <button id="login-button3" ion-button clear color="positive" block>
+      Esqueceu a senha?
+    </button>
+    <div class="spacer" style="height:100px;" id="login-spacer2"></div>
+    <h5 id="login-heading1" style="color:#000000;">
+      Não possui conta?
+    </h5>
+    <button id="login-button2" ion-button clear color="positive" block href-inappbrowser="/signup">
+      Entre em Contato com Administrador
+    </button>
+  </form>
+</ion-content>
